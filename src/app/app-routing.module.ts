@@ -10,6 +10,7 @@ import { DashbordClasseComponent } from './Dashbord_admin/dashbord-classe/dashbo
 import { DashbordProfesseurComponent } from './Dashbord_admin/dashbord-professeur/dashbord-professeur.component';
 import { UserProfesseurComponent } from './Utilisateur/user-professeur/user-professeur.component';
 import { UserApprenantComponent } from './Utilisateur/user-apprenant/user-apprenant.component';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,10 @@ const routes: Routes = [
   { path: 'administration/Gestion-matiere/:id', component: DashbordMatiereComponent },
   { path: 'administration/Gestion-classe/:id', component: DashbordClasseComponent },
   { path: 'EspaceProf/:id', component: UserProfesseurComponent },
-  { path: 'EspaceApprenant/:id', component: UserApprenantComponent },
+  { path: 'maintenance', component:  MaintenanceComponent }
+
+
+
 
 
 

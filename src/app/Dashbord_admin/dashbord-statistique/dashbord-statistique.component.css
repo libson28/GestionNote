@@ -11,8 +11,8 @@
 }
 
 .Card1 {
-  width: 260px;
-  height: 130px;
+  width: 340px;
+  height: 190px;
   background-color: white;
   padding: 1em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -29,6 +29,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#klkl{
+  margin-left: -0.5rem;
 }
 
 .cardbx i {

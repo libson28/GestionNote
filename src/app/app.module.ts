@@ -18,6 +18,7 @@ import { MenuEleveProfComponent } from './menu-eleve-prof/menu-eleve-prof.compon
 import { CouleurfondDirective } from './couleurfond.directive';
 import { MenuEleveComponent } from './menu-eleve/menu-eleve.component';
 import { ColorhoverDirective } from './colorhover.directive';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
 
 
 @NgModule({
@@ -31,13 +32,13 @@ import { ColorhoverDirective } from './colorhover.directive';
     LoginpageComponent,
     UserApprenantComponent,
     UserProfesseurComponent,
-
     HeaderDasboardComponent,
     DashbordStatistiqueComponent,
     MenuEleveProfComponent,
     CouleurfondDirective,
     MenuEleveComponent,
-    ColorhoverDirective
+    ColorhoverDirective,
+    MaintenanceComponent
 
 
   ],
